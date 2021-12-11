@@ -16,16 +16,13 @@ extern "C"
 }
 #include "UartCom.h"
 
-#define NUM_UART_DATA    4
-
 //*****************************************************************************
 //
 // Send a string to the UART.  This function sends a string of characters to a
 // particular UART module.
 //
 //*****************************************************************************
-void
-UARTSend(uint32_t ui32UARTBase, const uint8_t *pui8Buffer, uint32_t ui32Count)
+void UARTSend(uint32_t ui32UARTBase, const uint8_t *pui8Buffer, uint32_t ui32Count)
 {
     //
     // Loop while there are more characters to send.

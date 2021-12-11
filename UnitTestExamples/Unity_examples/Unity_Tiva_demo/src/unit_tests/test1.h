@@ -1,8 +1,5 @@
 /*
- * test1.h
- *
- *  Created on: 11.12.2021
- *      Author: BG
+ * Prototypes of unit tests
  */
 
 #pragma once
